@@ -1,9 +1,0 @@
-{
-    "defaultinfo": "<br/><small style='top: 86px;position: relative;'>Tutti i dati visualizzati risalgono all'ultima esecuzione dei backup, e non sono in tempo reale.<br/>Per eventuali richieste, utilizzare l'apposito bottone all'interno della navbar!</small>", 
-    "homepage":"Seleziona la tabella, di cui desideri visualizzare i dati, dal menù a tendina.<br/>Una volta selezionata una tabella, se contente dati, ci sarà la possibilità di esportarne i dati, in formato JSON, Excel, o CSV,  dalla navbar presente sulla sinistra.",
-    "queryer": "Seleziona la tabella, di cui desideri visualizzare i dati, dal menù a tendina.<br/>Una volta selezionata una tabella, se contente dati, potrai selezionare le colonne utili alla tua analisi, con possibilità di esportarne i dati, in formato JSON, Excel, o CSV,  dalla navbar presente sulla sinistra.",
-    "stats": "I seguenti grafici aiutano a dare un dettaglio più diretto e grafico rispetto ai principari indicatori sulle performance.",
-    "seereqs": "La seguente tabella mostra l'elenco di richieste e segnalazioni effettuate, con possibilità di visualizzare, modificare o eliminare il singolo caso",
-    "addrequest": "Compila tutti i campi del form per effettuare la richiesta di un nuovo report.<br/>Tieni conto, che la base dati è quella disponibile e visualizzabile attraverso le pagine presenti sul sito.",
-    "reportaproblem": "Compila tutti i campi del form per effettuare una segnalazione relativa al funzionamento del sito.<br/>Risponderemo al più presto."
-}
