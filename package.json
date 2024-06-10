@@ -1,0 +1,30 @@
+{
+    "name": "analyzer_ws",
+    "version": "1.0.0",
+    "description": "Applicazione Node.js con React per gestire richieste e segnalazioni",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "nodemon server.js",
+        "client": "cd client && npm start"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "concurrently": "^7.0.0",
+        "nodemon": "^2.0.20"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "author": "Tuo Nome",
+    "license": "ISC"
+}
