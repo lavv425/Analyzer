@@ -13,12 +13,12 @@ require('dotenv').config();
 app.use(express.json());
 
 app.use((req, res, next) => {
-    const allowedOrigins = process.env.ORIGIN.split(',');
-    const origin = req.headers.origin;
+    // const allowedOrigins = process.env.ORIGIN.split(',');
+    // const origin = req.headers.origin;
 
-    if (allowedOrigins.includes(origin)) {
-        res.setHeader('Access-Control-Allow-Origin', origin);
-    }
+    // if (allowedOrigins.includes(origin)) {
+        res.setHeader('Access-Control-Allow-Origin', "*");
+    // }
     //così posso dichiarare sia prod che dev
     // res.header('Access-Control-Allow-Origin', process.env.ORIGIN);
     // res.header('Access-Control-Allow-Origin', process.env.ORIGIN);
